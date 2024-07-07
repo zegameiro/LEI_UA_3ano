@@ -1,2 +1,16 @@
 # LEI_UA_3ano
-Cadeiras do 3º ano de Licenciatura em Engenharia Informática na Universidade de Aveiro 2023/2024
+
+## 1º Semestre
+
+    - Complementos de Bases de Dados (CBD)
+    - Inteligência Artificial (IA)
+    - Introdução à Engenharia de Software (IES)
+    - Segurança Informática e nas Organizações (SIO)
+    - Tecnologias e Programação Web (TPW)
+
+## 2º Semestre
+
+    - Aspetos Profissionais e Sociais para Engenharia Informática (APSEI)
+    - Introdução à Computação Móvel (ICM)
+    - Projeto em Informática (PI)
+    - Testes e Qualidade de Software (TQS)
