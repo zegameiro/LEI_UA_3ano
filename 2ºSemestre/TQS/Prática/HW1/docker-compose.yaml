@@ -1,0 +1,36 @@
+version: '3'
+services:
+  backend_tqs_hw:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    
+    container_name: "backend_tqs_hw"
+
+    volumes:
+      - ./backend:/backend
+    
+    ports:
+      - "8080:8080"
+
+    command: mvn spring-boot:run
+
+  frontend_tqs_hw:
+
+    depends_on:
+      - backend_tqs_hw
+
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    
+    container_name: "frontend_tqs_hw"
+
+    volumes:
+      - ./frontend:/frontend
+
+    ports:
+      - "3000:3000"
+    
+    command: yarn dev
+    
