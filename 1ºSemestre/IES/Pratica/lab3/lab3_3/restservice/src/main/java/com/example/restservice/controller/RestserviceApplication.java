@@ -1,0 +1,17 @@
+package com.example.restservice.controller;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@EntityScan(basePackages = "com.example.restservice.models")
+@ComponentScan(basePackages = "com.example.restservice.services")
+@EnableJpaRepositories("com.example.restservice.repository")
+@SpringBootApplication
+public class RestserviceApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(RestserviceApplication.class, args);
+	}
+}

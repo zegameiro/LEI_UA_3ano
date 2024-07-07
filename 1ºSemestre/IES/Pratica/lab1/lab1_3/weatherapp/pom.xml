@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.zegameiro.weatherapp</groupId>
+
+  <artifactId>weatherapp</artifactId>
+
+  <packaging>jar</packaging>
+
+  <version>1.0-SNAPSHOT</version>
+
+  <name>weatherapp</name>
+
+  <url>http://maven.apache.org</url>
+
+   <properties>
+    <project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <organization>
+    <name>Universidade de Aveiro</name>
+    <url>https://www.ua.pt/</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>zegameiro</id>
+      <name>José Gameiro</name>
+      <email>jose.mcgameiro@ua.pt</email>
+      <url>https://github.com/zegameiro</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
+  </dependencies>
+</project>

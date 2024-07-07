@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.ipmaapi</groupId>
+
+  <artifactId>ipmacliapi</artifactId>
+
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>jar</packaging>
+
+  <name>ipmacliapi</name>
+
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <organization>
+    <name>Universidade de Aveiro</name>
+    <url>https://www.ua.pt/</url>
+  </organization>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.anycityforcast</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>com..AnyCityForecast</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <developers>
+    <developer>
+      <id>zegameiro</id>
+      <name>José Gameiro</name>
+      <email>jose.mcgameiro@ua.pt</email>
+      <url>https://github.com/zegameiro</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+  </dependencies>
+
+</project>
