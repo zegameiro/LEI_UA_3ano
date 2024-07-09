@@ -10,15 +10,17 @@ A nossa plataforma pode ser acedida através deste link [dissertações](https:/
 
 Toda a documentação desenvolvida e mais informações detalhadas sobre o nosso projeto podem ser encontrados no nosso [microsite](https://pi-dsd.github.io/microsite/).
 
+Encontram-se presentes os slides das aulas teóricas, a lista das propostas dos diferentes projetos, incluindo o nosso, todas as nossas apresentações realizadas ao longo do semestre em cada Milestone, o relatório final, um poster e duas demos do funcionamento do nosso projeto.
+
 ### Nota Final: 20
 
 ### Diagrama da Arquitetura
 
-<img title="Architecture" alt="Architecture" src="Projeto/Imagens/architecture.png">
+<img title="Architecture" alt="Architecture" src="Projeto/imagens/architecture.png">
 
 ### Diagrama da Arquitetura de Produção
 
-<img title="a title" alt="Alt text" src="Projeto/Imagens/deploymentDiagram.png">
+<img title="a title" alt="Alt text" src="Projeto/imagens/deploymentDiagram.png">
 
 ### A nossa equipa
 <table>
