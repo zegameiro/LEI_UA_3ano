@@ -1,14 +1,12 @@
 # ICM Homework Individual Assignment
 
-## José Gameiro 108840 - LEI
-
 ### Objectives
 
 Use flutter to clone existing / concept app and, by doing so, use/explore flutter UI widgets and basic navigation options
 
 So with this I decided to clone the following weather app:
 
-<img title="a title" alt="Alt text" src="assets/images/flutter-weather-app.png">
+<img title="a title" alt="Alt text" src="weatherapp/assets/images/flutter-weather-app.png">
 
 ### App Description
 
@@ -28,7 +26,7 @@ The data inside the pages are all static just as the buttons inside the cities p
 To run the app you need to have flutter installed and an emulator running or a physical device connected to the computer.
 You can run the app by using the following command in a terminal inside the weather_app folder or run the app using Visual Studio Code by pressing the following button or by pressing F5 in the main.dart file:
 
-<img title="a title" alt="Alt text" src="assets/images/vscode_execution.png">
+<img title="a title" alt="Alt text" src="weatherapp/assets/images/vscode_execution.png">
 
 Or
 
@@ -38,6 +36,8 @@ flutter run
 
 It might appear this message in the terminal:
 
-<img title="a title" alt="Alt text" src="assets/images/flutter_run.png">
+<img title="a title" alt="Alt text" src="weatherapp/assets/images/flutter_run.png">
 
 If that happens, simply select the device that you'll want to see you're app running.
+
+### Grade: 15.6
