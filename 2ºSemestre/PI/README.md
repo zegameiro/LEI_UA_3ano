@@ -6,7 +6,7 @@ O projeto do nosso grupo, foi nos proposto pelo docente [Diogo Gomes](https://gi
 
 O sistema apresenta o nome de Dissertações e está atualmente a ser utilizado por todos os docentes e estudantes do DETI e por 2 outros departamentos da Universidade de Aveiro.
 
-A nossa plataforma pode ser acedida através deste link [dissertações](https://dissertacoes.av.it.pt/), no entanto, apenas pessoa com credenciais da Universidade de Aveiro é que podem aceder e utilizá-lo diretamente.
+A nossa plataforma pode ser acedida através deste link [dissertações](https://dissertacoes.av.it.pt/), no entanto, apenas pessoas com credenciais da Universidade de Aveiro é que podem aceder e utilizá-lo diretamente.
 
 Toda a documentação desenvolvida e mais informações detalhadas sobre o nosso projeto podem ser encontrados no nosso [microsite](https://pi-dsd.github.io/microsite/).
 
