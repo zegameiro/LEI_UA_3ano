@@ -16,11 +16,11 @@ Encontram-se presentes os slides das aulas teóricas, a lista das propostas dos 
 
 ### Diagrama da Arquitetura
 
-<img title="Architecture" alt="Architecture" src="Projeto/imagens/architecture.png">
+<img title="Architecture" alt="Architecture" src="Projeto/Imagens/architecture.png">
 
 ### Diagrama da Arquitetura de Produção
 
-<img title="a title" alt="Alt text" src="Projeto/imagens/deploymentDiagram.png">
+<img title="a title" alt="Alt text" src="Projeto/Imagens/deploymentDiagram.png">
 
 ### A nossa equipa
 <table>
