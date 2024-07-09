@@ -1,6 +1,3 @@
-[submodule "2ºSemestre/TQS/TQS_Project"]
-	path = 2ºSemestre/TQS/TQS_Project
-	url = https://github.com/zegameiro/TQS_Project.git
 [submodule "2ºSemestre/ICM/Projetos/Projeto2-ICM"]
 	path = 2ºSemestre/ICM/Projetos/Projeto2-ICM
 	url = https://github.com/falcaodiogo/Projeto2-ICM.git
