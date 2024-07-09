@@ -1,3 +1,9 @@
 [submodule "2ºSemestre/TQS/TQS_Project"]
 	path = 2ºSemestre/TQS/TQS_Project
 	url = https://github.com/zegameiro/TQS_Project.git
+[submodule "2ºSemestre/ICM/Projeto2-ICM"]
+	path = 2ºSemestre/ICM/Projeto2-ICM
+	url = https://github.com/zegameiro/Projeto2-ICM.git
+[submodule "2ºSemestre/ICM/Projeto1-ICM"]
+	path = 2ºSemestre/ICM/Projeto1-ICM
+	url = https://github.com/zegameiro/Projeto1-ICM.git
